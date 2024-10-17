@@ -1,0 +1,25 @@
+/*selector UNIVERSAL */
+ * {
+    color:rgba(17, 85, 20, 0.384) ;
+ }
+ /* selector de etiqueta */
+ h2, p {
+    color:aquamarine ;
+ }
+ section  p {
+    color: red;
+ }
+ /*selector de clase*/
+ .textoazul {
+    color: blue;
+ }
+ /*selectores de identificador*/
+ 
+ #articulo2 {
+    text-align: end;
+    background-color: chocolate;
+ }
+
+ #articulo1 p.textoazul {
+    color: black;
+ }
