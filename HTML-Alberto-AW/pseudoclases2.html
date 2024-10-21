@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <title>pseudoclases 2</title>
+    <style>
+        button:hover{
+            color: blue;
+        }
+        input:hover:focus{
+            color: red;
+            background-color: rebeccapurple;
+        }
+        button:active{
+            background-color: aquamarine;
+            color: blue;
+        }
+        table,th,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        tr:nth-child(3) {
+            background-color: blueviolet;
+        }
+        tr:first-child {
+            background-color: brown;
+        }
+        tr:hover{
+            border: 3px solid peru;
+            background-color: aquamarine;
+        }
+        input:checked + label{
+            text-transform: uppercase;
+            color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <h3>pseudoclases</h3>
+    <hr>
+    <button>Boton 1</button>
+    <button>boton 2</button>
+    <button>boton 3</button>
+    <hr>
+    <h4>enlaces de interes</h4>
+    <ul>
+        <li><a href="#">enlace 1</a></li>
+        <li><a href="#">enlace 2</a></li>
+    </ul>
+    <input type="password" name="pas" id="pas" placeholder="contraseña"><br>
+    <input type="email" name="email" id="email" placeholder="email">
+    <br>
+    <input type="checkbox" name="a" id="a"><label for="a">hola</label>
+    <hr>
+    <table>
+        <tr>
+            <th>lunes</th><th>martes</th>
+        </tr>
+        <tr>
+            <td>Mates</td><td>lengua</td>
+        </tr>
+        <tr>
+            <th>lunes</th><th>martes</th>
+        </tr>
+        <tr>
+            <td>Mates</td><td>lengua</td>
+        </tr>
+        <tr>
+            <th>lunes</th><th>martes</th>
+        </tr>
+        <tr>
+            <td>Mates</td>
+            <td>lengua</td>
+        </tr>
+        <tr>
+            <th>lunes</th><th>martes</th>
+        </tr>
+        <tr>
+            <td>Mates</td><td>lengua</td>
+        </tr>
+        <tr>
+            <th>lunes</th><th>martes</th>
+        </tr>
+        <tr>
+            <td>Mates</td><td>lengua</td>
+        </tr>
+        <tr>
+            <th>lunes</th><th>martes</th>
+        </tr>
+        <tr>
+            <td>Mates</td><td>lengua</td>
+        </tr>
+    </table>
+</body>
+</html>
