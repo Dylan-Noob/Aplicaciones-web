@@ -1,0 +1,15 @@
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
+.elemento{
+    width: 100%;
+    height: 500px;
+    background-color: beige;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/63/Logo_La_Linea_100x100.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}

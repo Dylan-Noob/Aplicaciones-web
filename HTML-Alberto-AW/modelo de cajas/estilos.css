@@ -1,0 +1,46 @@
+
+
+  
+
+        
+body{
+    background-color: orange;
+    font-family: 'singnika';
+   
+}
+.menu{
+    text-decoration: none;
+    background-color: black;
+    display: inline-flex;
+   
+}
+.menu a {
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+}
+.menu a:hover{
+    background-color: aliceblue;
+    color: purple;
+}
+.menu a:active{
+    background-color: aliceblue;
+    
+}
+.social{
+margin: 30px 10px;
+}
+.social a{
+    padding: 0 10px;
+    color: white;
+}
+.social a:hover{
+    color: blue;
+}
+.boton a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 6px;
+
+}
