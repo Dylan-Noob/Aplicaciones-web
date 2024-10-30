@@ -1,0 +1,12 @@
+.alber{
+    background-color: aqua;
+    border: 3px black;
+    height: 1000px;
+    width: 1500px;
+    background-image: url('https://frutinter.com/wp-content/uploads/2020/08/peras_limoneras_frutinter-Custom.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+.qpasa{
+    background-color: antiquewhite;
+}
