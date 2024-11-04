@@ -1,0 +1,15 @@
+div{
+    display: block;
+    border: 2px black solid;
+    background-color: beige;
+}
+span{
+    display: inline;
+    border: 2px;
+    background-color: blue;
+}
+p{
+    display: block;
+    border: 2px;
+    background-color: brown;
+}

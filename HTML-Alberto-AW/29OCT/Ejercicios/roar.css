@@ -1,0 +1,13 @@
+.sta{
+    position: sticky;
+    background-color: red;
+    top: 10px;
+}
+.dv{
+    background-color: blue;
+}
+.yupi{
+    position: absolute;
+    background-color: yellow;
+    z-index: 10;
+}

@@ -1,0 +1,12 @@
+.contenedor{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+span{
+    position: absolute;
+    background-color: blueviolet;
+    bottom: 10px;
+    right: 10px;
+}
