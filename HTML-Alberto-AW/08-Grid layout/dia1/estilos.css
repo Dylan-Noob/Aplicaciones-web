@@ -1,0 +1,23 @@
+.container{
+    background: salmon;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 50px 80px;
+    gap: 10px;
+}
+
+.container div {
+    background: lightblue;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.item-1{
+    grid-column: 1 / 3;
+}
+
+.item-2{
+    grid-row: 1 / span 2 ;
+}
