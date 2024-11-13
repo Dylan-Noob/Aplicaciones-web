@@ -1,0 +1,23 @@
+.inicial{
+    background-color: rgb(189, 189, 189);
+    display: grid;
+    border: 3px solid black;
+    border-radius: 5px;
+    gap: 5px;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+inicial div{
+    padding: 1em;
+}
+.item1{
+    background-color: aqua;
+}
+.item2{
+    background-color: chartreuse;
+}
+.item3{
+    background-color: chocolate;
+}
+.item4{
+    background-color: antiquewhite;
+}
