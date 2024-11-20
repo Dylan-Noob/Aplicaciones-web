@@ -13,14 +13,14 @@
 //let resultado = (nota1 > nota2) * "La nota1 es mayor que la edad2 " + ( nota2 > nota1) * "La nota2 es mayor que la nota2"
 //console.log
 
-let edad1 = 56;
-let edad2 = 96;
+//let edad1 = 56;
+//let edad2 = 96;
 
-if ( edad1 > edad2 ) {
-    console.log("edad1 es mayor que edad2. ");
-} else {
+//if ( edad1 > edad2 ) {
+   // console.log("edad1 es mayor que edad2. ");
+//} else {
 
-   if (edad1 == edad2) {
-    console.log("edad1 es exactamente igual que edad1")
-   }
-}
+  // if (edad1 == edad2) {
+ //   console.log("edad1 es exactamente igual que edad1")
+ //  }
+//}
