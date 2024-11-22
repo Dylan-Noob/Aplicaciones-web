@@ -1,9 +1,8 @@
 
+let num = parseInt (prompt("meta el numero que desea multiplicar"));
 
-for( let numero = 1; numero <= 9; 1+numero ){
-    resultado = numero 
-    
-  
+for (let i = 1; i <= 10; i++ ) {
+
+let resultado = (num * i);
+    console.log( "Si multiplicas " + num + " X " + i + " es igual a " + resultado );
 }
-
-console.log("el resultado al final es: " + resultado );
