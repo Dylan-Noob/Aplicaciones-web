@@ -1,0 +1,31 @@
+body {
+    background-color: bisque;
+
+}
+
+button {
+  
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+   justify-content: space-around;
+}
+
+.b1 {
+    background-color: blue;
+}
+
+.b2 {
+    background-color: aqua;
+}
+
+.b3{
+    background-color: chartreuse;
+}
+
+.b4{
+    background-color: crimson;
+}
