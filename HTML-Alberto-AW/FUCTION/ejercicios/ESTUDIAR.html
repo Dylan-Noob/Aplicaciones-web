@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function areaTriangulo(base, altura){
+            let area = (base * altura) / 2;
+            return area;
+        }
+
+      
+            function boton1(){
+            let base = parseInt(prompt('escribre la base del triangulo'));
+            let altura = parseInt(prompt('escribre la altura del triangulo'));
+            let area = areaTriangulo(base, altura);
+            alert("El area de tu triangulo es " + area);
+            }
+            
+    </script>
+
+</head>
+<body>
+    <button onclick="boton1()">calcular area triangulo</button>
+</body>
+</html>
