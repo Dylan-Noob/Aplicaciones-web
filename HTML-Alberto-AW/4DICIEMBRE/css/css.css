@@ -1,0 +1,13 @@
+.contenido{
+    background-color: aqua;
+}
+.boton{
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.apellido{
+    background-color: blue;
+    color: rgb(86, 226, 43);
+}

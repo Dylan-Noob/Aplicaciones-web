@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <title>Document</title>
+
+    <script>
+        
+        function cambiarfondo(){
+            let color = prompt("rojo,verde o blanco?");
+            if (color == rojo){
+                let body = document.body;
+            body.style.background = 'red';
+            } else if (color == verde) {
+                let body = document.body;
+            body.style.background = 'green';
+            } else {
+                let body = document.body;
+            body.style.background = 'white';
+            }
+           
+        }
+
+        function obnombre(){
+           let a = document.getElementById('nombre').value;
+           console.log(a );
+        }
+        function obedad(){
+            let b = let a = document.getElementById('edad').value;
+            console.log (b);
+        }
+    
+      
+    </script>
+
+</head>
+
+<body>
+    <header id="primero">
+        <h1 class="titulo">Titulo de mi web</h1>
+    </header>
+    <main id="principal">
+        <p class="parrafo">Esto es un parrafo</p>
+        <input type="text"  id="nombre" placeholder="nombre">
+        <p class="parrafo">Esto es un parrafo</p>
+        <input type="text" placeholder="edad" id="edad">
+        <p class="parrafo">Esto es un parrafo</p>
+        <hr>
+        <p class="parrafo">Esto es un parrafo</p>
+        <button id="boton" onclick="cambiarfondo()">cambiar Fondo</button>
+
+       <button onclick="obnombre">
+        obtener nombre por consola
+       </button>
+
+       <button onclick="obedad">
+        obtener edad por consola
+       </button>
+       <hr>
+       <p class="resultado"></p>
+    </main>
+</body>
+</html>
