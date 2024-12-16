@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>ma</title>
+
+    <script>
+        function edad(){
+            let num = document.getElementById("edad").value ;
+            if (num >= 18){
+                document.getElementById("final").value = "Mayor de edad";
+            } else {
+                document.getElementById("final").value = "NO es Mayor de edad";
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <input type="text" id="edad">
+
+    <button onclick="edad()">Eres mayor de edad?</button>
+
+    <input type="text" id="final">
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   
+    <title>Document</title>
+    <script>
+        function sumar(){
+            let num1 = document.getElementById("num1").value ;
+            let num2 = document.getElementById("num2").value ;
+
+            let resultado = parseFloat(num1) + parseFloat(num2);
+
+            document.getElementById("resultado").innerText = "el resultado de la operacion es: " + resultado;
+        }
+
+        function restar(){
+            let num1 = document.getElementById("num1").value ;
+            let num2 = document.getElementById("num2").value ;
+
+            let resultado = parseFloat(num1) - parseFloat(num2);
+
+            document.getElementById("resultado").innerText = "el resultado de la operacion es: " + resultado;
+        }
+
+        function multiplicar(){
+            let num1 = document.getElementById("num1").value ;
+            let num2 = document.getElementById("num2").value ;
+
+            let resultado = parseFloat(num1) * parseFloat(num2);
+
+            document.getElementById("resultado").innerText = "el resultado de la operacion es: " + resultado;
+        }
+
+        function dividir(){
+            let num1 = document.getElementById("num1").value ;
+            let num2 = document.getElementById("num2").value ;
+
+            let resultado = parseFloat(num1) / parseFloat(num2);
+
+            document.getElementById("resultado").innerText = "el resultado de la operacion es: " + resultado;
+        }
+    </script>
+</head>
+<body>
+    <input type="number" id="num1">
+
+    <input type="number" id="num2">
+
+
+    <div class="contenedor">
+        <button onclick="sumar()">sumar</button>
+        <button onclick="restar()">resta</button>
+        <button onclick="multiplicar()">multiplicar</button>
+        <button onclick="dividir()">dividir</button>
+    </div>
+
+    <div id="resultado"></div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: deeppink;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: lighter;
+            font-style: italic;
+        }
+        .jefe{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 100px 100px 100px 100px 100px 100px 100px ;
+            gap: 5px;
+            background-color: rgb(161, 150, 150);
+            
+          
+            
+        
+            
+        }
+        .item{
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+
+        .uno{
+            background-color: rgb(57, 190, 190);
+            grid-column: ;
+        }
+        .dos{
+            background-color: bisque;
+        }
+        .tres{
+            background-color: aquamarine;
+        }
+        .cuatro{
+            background-color: brown;
+        }
+        .cinco{
+            background-color: chocolate;
+        }
+        .seis{
+            background-color: darkgoldenrod;
+        }
+
+        .siete{
+            background-color: crimson;
+        }
+        .ocho{
+            background-color: cyan;
+        }
+        .nueve{
+            background-color: rgb(84, 172, 33);
+        }
+        .diez{
+            background-color: dodgerblue;
+            text-align: center;
+        }
+        .once{
+            background-color: cornsilk;
+            text-align: center;
+        }
+        .doce{
+            background-color: darkolivegreen;
+        }
+        .trece{
+            background-color: rgb(197, 63, 135);
+        }
+        .catorce{
+            background-color: darkgoldenrod;
+        }
+        .quince{
+            background-color: darkturquoise;
+        }
+    </style>
+
+    <script>
+        function sumar(){
+            let num1 = document.getElementById("num1").value ;
+            let num2 = document.getElementById("num2").value 
+
+            let resultado = parseFloat(num1) + parseFloat(num2);
+
+            document.getElementById("resultado").innerText = resultado;
+        }
+
+        function ocultar(si){
+            document.getElementById("gola").style.display = si;
+        }
+
+        function tabla(){
+            let u = parseInt(prompt("Dime el numero del que deseas la tabla"))
+
+            for(let i = 1; i <= 10; i++){
+
+                let resultado = i * u;
+
+                console.log("el resultado de multiplicar " + i + " X " + u + " es igual a: " + resultado);
+            }
+        }
+
+        function color(cambio){
+            document.body.style.backgroundColor = cambio;
+        }
+    </script>
+</head>
+<body>
+
+    <div class="jefe">
+        <div class="item uno">1</div>
+        <div class="item dos">2</div>
+        <div class="item tres">
+            <button onclick="color('red')">rojo</button>
+            <button onclick="color('green')">verde</button>
+            <button onclick="color('black')">negro</button>
+        </div>
+        <div class="item cuatro"><button onclick="tabla()">valee</button></div>
+        <div class="item cinco"><button onclick="sumar()">Sumar</button></div>
+        <div class="item seis" id="resultado"></div>
+        <div class="item siete">7</div>
+        <div class="item ocho"><button onclick="ocultar('none')">Ocultar</button></div>
+        <div class="item nueve"><button onclick="ocultar('block')">mostrar</button></div>
+        <div class="item diez"><input type="number" name="" id="num1"></div>
+        <div class="item once"><input type="number" id="num2"></div>
+        <div class="item doce">12</div>
+        <div class="item trece">13</div>
+        <div class="item catorce">14</div>
+        <div class="item quince"><p id="gola">vale ya porfavor, ahora viene cuando la matan</p></div>
+        <div class="item tres">16</div>
+        <div class="item siete">17</div>
+        <div class="item ocho">18</div>
+        <div class="item nueve">19</div>
+        <div class="item diez">20</div>
+    </div>
+    
+</body>
+</html>

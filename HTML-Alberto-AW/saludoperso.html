@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <title>Xd</title>
+
+    <script>
+        function saludo(){
+            let nombre = document.getElementById("name").value ;
+
+            document.getElementById("final").value = "saludo a mi amigo: " + nombre;
+
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="name">
+
+    <button onclick="saludo()">Saludos</button>
+
+    <input type="text" id="final" readonly>
+</body>
+</html>
