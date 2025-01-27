@@ -14,27 +14,29 @@
 </head>
 <body class="bg-warning">
     <div class="container">
-        <div class="mt-4 text-white"> <h1 class="h1">Monte Parangaricutirimicuaro</h1></div>
+        <div class="mt-4 text-white"> <h1 class="h1">Fruteria</h1></div>
 
         <div class="mt-4">
             <ol class="list-inline">
-                <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="#">Contactar</a></li>
-                <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="#">Galeria de imagenes</a></li>
-                <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="#">Tablas y listado</a></li>
+                <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="./index.html">Indice</a></li>
+                <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="./galeria.html">Galeria de imagenes</a></li>
+                <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="./formulario.html">Tablas y listado</a></li>
+                <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="./carrucel.html">Carrucel</a></li>
+                <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="./tablasdefinitivo.html">Tablas</a></li>
             </ol>
         </div>
         <div class="">
-            <img src="https://www.ifam.es/uk/wp-content/uploads/sites/15/2015/08/imagenes-de-paisajes-hermosos-4.jpg" class="img-fluid">
+            <img src="https://www.fisenf.com/wp-content/uploads/2015/11/frutas-y-frutos-secos.jpg" class="img-fluid">
         </div>
 
 
         <div class="container mt-5">
 
-            <div class="alert alert-danger alert-dismissible d-none">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, veritatis!
-                <button class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+            <div id="alerta" class="alert alert-danger alert-dismissible d-none">El panadero con el pan, el panadero con el pan
+                <button onclick="esconderalerta()" class="btn-close" aria-label="close"></button>
             </div>
             
-            <div class="alert alert-success alert-dismissible d-none">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, veritatis!
+            <div id="ok" class="alert alert-success alert-dismissible d-none">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, veritatis!
                 <button class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
             </div>
 
@@ -60,16 +62,38 @@
                     <textarea type="text" id="mensaje" class="form-control" placeholder="mete tu mensaje aqui" cols="30" rows="10"></textarea>
                 </div>
             </form> 
-
+            <div class="mb-3 row">
+                <div class="col-2"></div>
+                <div class="col-10">
+                    <button onclick="muestraalerta()" class="btn btn-primary">Enviar error</button>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <div class="col-2"></div>
+                <div class="col-10">
+                    <button onclick="muestraok()" class="btn btn-primary">Enviar ok</button>
+                </div>
+            </div>
         </div>
         
     
     <div class="container text-white">
             <div class="row mt-5 bg-danger">
-                <blockquote class="blockquote">Estamos muy mal lorito</blockquote>
+                <blockquote class="blockquote">Pagina Web de Frutas</blockquote>
                 <footer class="blockquote-footer text-white">Escrito por <cite title="Dylan">Dylan</cite></footer>
             </div>
-
+        
     </div>
+    <script>
+        function muestraalerta(){
+            document.getElementById("alerta").classList.remove("d-none");
+        }
+        function muestraok(){
+            document.getElementById("ok").classList.remove("d-none");
+        }
+        function esconderalerta(){
+            document.getElementById("alerta").classList.add("d-none");
+        }
+    </script>
 </body>
 </html>
