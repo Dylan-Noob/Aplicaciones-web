@@ -17,33 +17,38 @@
             <ol class="list-inline">
                 <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="./index.html">Indice</a></li>
                 <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="./galeria.html">Galeria de imagenes</a></li>
-                <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="./formulario.html">Tablas y listado</a></li>
+                <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="./formulario.html">Contactame</a></li>
                 <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="./carrucel.html">Carrucel</a></li>
                 <li class="list-inline-item"><a class="text-secondary text-decoration-none" href="./tablasdefinitivo.html">Tablas</a></li>
             </ol>
         </div>
         <div class="">
-            <img src="https://www.fisenf.com/wp-content/uploads/2015/11/frutas-y-frutos-secos.jpg" class="img-fluid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Fruit_Stall_in_Barcelona_Market.jpg" class="img-fluid">
         </div>
 
-        <div class="container">
-            <div class="carousel slide" data-bs-ride="carousel">
-                <div class="carouserl-inner">
+        <div class="container p-0 mt-3">
+            <div id="slider-galeria" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button class="active" data-bs-target="#slider-galeria" data-bs-slide-to="0"></button>
+                    <button data-bs-target="#slider-galeria" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#slider-galeria" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://picsum.photos/1000/450" alt="">
+                        <img src="https://financialfood.es/wp-content/uploads/2022/09/Coviran-fruta-090922.jpg" alt="">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://picsum.photos/1000/450" alt="">
+                        <img src="https://www.goodnes.com/sites/g/files/jgfbjl321/files/styles/facebook_share/public/recipe-thumbnail/110752-d2fc27f1d6a068c1df3b64ba64d44b87_Fresh_Fruit_Salad.jpg?itok=75OEvJch" alt="">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://picsum.photos/1000/4 50" alt="">
+                        <img src="https://theobjective.com/wp-content/uploads/2023/05/Vista-superior-de-distintas-frutas-frescas.jpg" alt="">
                     </div>
                     
                 </div>
-                <button class="carousel-control-prev">
+                <button class="carousel-control-prev" data-bs-target="#slider-galeria" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button class="carousel-control-next">
+                <button class="carousel-control-next"data-bs-target="#slider-galeria" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </button>
             </div>
